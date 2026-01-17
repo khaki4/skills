@@ -1,6 +1,21 @@
 ---
 name: angular-dev-guidelines
 description: Frontend development guidelines for Angular 21/TypeScript applications. Modern patterns including zoneless change detection, standalone components, signals, Signal Forms, NgRx SignalStore, file organization with features directory, Bootstrap/Tailwind/Material styling, performance optimization, and TypeScript best practices. Use when creating components, services, features, fetching data, styling, routing, or working with frontend code.
+globs:
+  - "**/angular.json"
+  - "**/*.component.ts"
+  - "**/*.component.html"
+  - "**/*.service.ts"
+  - "**/*.module.ts"
+  - "**/*.directive.ts"
+  - "**/*.pipe.ts"
+  - "**/*.guard.ts"
+  - "**/*.resolver.ts"
+  - "**/*.interceptor.ts"
+  - "**/app.routes.ts"
+  - "**/app.config.ts"
+  - "**/*.store.ts"
+  - "**/package.json"
 ---
 
 # Angular 21 Development Guidelines (2025 Edition)
